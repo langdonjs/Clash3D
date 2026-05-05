@@ -4,11 +4,11 @@
 
 # Clash3D
 
-**Turn Clash Royale screen recordings into a 3D arena visualization** — computer vision tracks every troop; Blender brings the match to life on a Hog Mountain–style set.
+**Turn Clash Royale screen recordings into a 3D arena visualization**: computer vision tracks every troop; Blender brings the match to life on Hog Mountain arena.
 
 ## Why & general information
 
-I’ve always loved **Clash Royale** and kept wondering whether you could **see the same match in 3D** instead of a flat top-down screen — not a clone of the game, but a way to **replay the action in a real 3D scene**. Along the way I wanted to get hands-on with **computer vision** and **machine learning**, so I built **Clash3D**: use a **YOLO** detector (with tracking) to follow units in the video, export **paths and class labels** to JSON, then **load that data in Blender** and drive **per-troop 3D flipbook** characters on the arena floor. In short: **record → detect/track → JSON → Blender**. It’s messy, fun, and a great excuse to connect CV models with DCC tools.
+I’ve always loved **Clash Royale** and kept wondering whether you could **see the same match in 3D** instead of a flat top-down screen, not a clone of the game, but a way to **replay the action in a real 3D scene**. Along the way I wanted to get hands-on with **computer vision** and **machine learning**, so I built **Clash3D**: use a **YOLO** detector (with tracking) to follow units in the video, export **paths and class labels** to JSON, then **load that data in Blender** and drive **per-troop 3D flipbook** characters on the arena floor. In short: **record → detect/track → JSON → Blender**. 
 
 ## How it works (short version)
 
