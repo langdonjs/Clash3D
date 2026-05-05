@@ -1,0 +1,29 @@
+# Python
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+
+# ML weights (download separately or use your own)
+*.pt
+
+# Generated runs / videos / local outputs
+outputs/
+runs/
+output_frames/
+scaled_output_frames/
+output_video.mp4
+sprite_wiz.webm
+*.mp4
+
+# Sample / scratch at repo root
+object_0*.glb
+
+# Large Hog Mountain texture + glb bundle (~750MB+). Clone repo README explains
+# how to point BACKGROUND_IMAGE or restore this folder if you have it locally.
+cr-assets-png/
