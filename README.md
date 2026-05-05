@@ -58,7 +58,3 @@ Each troop needs a folder of **multiple** `.glb` files (walk cycle), not a singl
 ## Disclaimer
 
 This project is an independent fan / research pipeline and is not affiliated with Supercell or Clash Royale. Game assets are used for personal/educational purposes; respect Supercell’s terms and IP.
-
-## License
-
-Add a `LICENSE` file if you want this public; default is all rights reserved until you set one.
